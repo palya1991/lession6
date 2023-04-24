@@ -2,15 +2,13 @@ body {
 	background-color: lightblue;
 }
 
-.onefl {
-	float: left;
-}
-
 .gen1 {
 	border: 2px solid black;
 	height: 200px;
 	width: 200px;
-
+	float: left;
+	position: relative;
+	z-index: 9;
 }
 
 .ingen1 {
@@ -44,10 +42,52 @@ body {
 	position: relative;
 	left: 100px;
 	bottom: 200px;
+	z-index: 1;
 }
 
-.gen1 {
-	height: 200px;
-	width: 400px;
+.gen2 {
+	border: 2px solid black;
+	height: 150px;
+	width: 350px;
 	background-color: grey;
+	padding: 25px;
+	margin-left: 25px;
+	float: left;
+	position: relative;
+	z-index: 5;
+}
+
+.ingen22 {
+	height: 150px;
+	width: 350px;
+	background-color: red;
+}
+
+.blu1 {
+	width: 130px;
+	height: 130px;
+	background-color: blue;
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 150px;
+	z-index: 1;
+}
+
+.blu2 {
+	width: 130px;
+	height: 130px;
+	background-color: blue;
+	margin-left: 280px;
+	position: absolute;
+	margin-top: 150px;
+	z-index: 9;
+}
+
+.blu3 {
+	width: 130px;
+	height: 130px;
+	background-color: blue;
+	margin-left: 440px;
+	position: absolute;
+	margin-top: 150px;
 }

@@ -1,0 +1,63 @@
+.menu {
+	width: 850px;
+	height: 240px;
+	border: 2px solid black;
+}
+
+.menu1, .menu2, .menu3, .menu4, .menu5 {
+	display: inline-block;
+	width: 150px;
+	height: 190px;
+	position: relative;
+	top: 3%;
+	left: 5%;
+}
+
+.menu1:hover {
+	border: 1px solid black;
+}
+
+.menu2:hover {
+	border: 1px solid black;
+}
+
+.menu3:hover {
+	border: 1px solid black;
+}
+
+.menu4:hover {
+	border: 1px solid black;
+}
+
+.menu5:hover {
+	border: 1px solid black;
+}
+
+.pho1 {
+	height: 110px;
+	width: 110px;
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 8%;
+}
+
+.ppp111 {
+	width: 150px;
+	height: 50px;
+	background-color: brown;
+	color: white;
+	position: relative;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: underline;
+}
+
+.ppp111:hover {
+	background-color: yellow;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
